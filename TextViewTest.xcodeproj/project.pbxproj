@@ -13,6 +13,7 @@
 		FF34504F1DE2C54300CCC18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34504D1DE2C54300CCC18C /* Main.storyboard */; };
 		FF3450511DE2C54300CCC18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3450501DE2C54300CCC18C /* Assets.xcassets */; };
 		FF3450541DE2C54300CCC18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3450521DE2C54300CCC18C /* LaunchScreen.storyboard */; };
+		FF34512F1DE8308F00CCC18C /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34512E1DE8308F00CCC18C /* TextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FF3450501DE2C54300CCC18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3450531DE2C54300CCC18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF3450551DE2C54300CCC18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF34512D1DE8308F00CCC18C /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		FF34512E1DE8308F00CCC18C /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FF3450481DE2C54300CCC18C /* AppDelegate.m */,
 				FF34504A1DE2C54300CCC18C /* ViewController.h */,
 				FF34504B1DE2C54300CCC18C /* ViewController.m */,
+				FF34512D1DE8308F00CCC18C /* TextView.h */,
+				FF34512E1DE8308F00CCC18C /* TextView.m */,
 				FF34504D1DE2C54300CCC18C /* Main.storyboard */,
 				FF3450501DE2C54300CCC18C /* Assets.xcassets */,
 				FF3450521DE2C54300CCC18C /* LaunchScreen.storyboard */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					FF3450401DE2C54300CCC18C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TZ824L8Y37;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF34504C1DE2C54300CCC18C /* ViewController.m in Sources */,
+				FF34512F1DE8308F00CCC18C /* TextView.m in Sources */,
 				FF3450491DE2C54300CCC18C /* AppDelegate.m in Sources */,
 				FF3450461DE2C54300CCC18C /* main.m in Sources */,
 			);
@@ -272,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
 				INFOPLIST_FILE = TextViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.TextViewTest;
@@ -283,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
 				INFOPLIST_FILE = TextViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.TextViewTest;
@@ -309,6 +318,7 @@
 				FF34505A1DE2C54300CCC18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
