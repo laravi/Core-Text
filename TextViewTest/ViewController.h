@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "EditableCoreTextView.h"
+#import "TextView.h"
 
 @interface ViewController : UIViewController <EditableCoreTextViewDelegate>
 

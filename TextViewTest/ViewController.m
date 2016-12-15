@@ -10,7 +10,7 @@
 
 @interface ViewController ()<UITextViewDelegate>
 {
-//    UITextView *textView;
+    TextView *textView;
 }
 
 @end
@@ -21,17 +21,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    textView = [UITextView new];
-//    textView.delegate = self;
+    textView = [TextView new];
+    textView.delegate = self;
     
     editableCoreTextView = [[EditableCoreTextView alloc] init];
     editableCoreTextView.editableCoreTextViewDelegate = self;
     
     CGRect frame = self.view.frame;
     frame.origin.y += 20;
-    editableCoreTextView.frame = frame;
+    textView.frame = frame;
 
-    [self.view addSubview:editableCoreTextView];
+    [self.view addSubview:textView];
 }
 
 - (void)editableCoreTextViewWillEdit:(EditableCoreTextView *)editableCoreTextView;
