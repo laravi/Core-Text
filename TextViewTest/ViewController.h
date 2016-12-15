@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EditableCoreTextView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <EditableCoreTextViewDelegate>
 
+@property (nonatomic, retain) EditableCoreTextView *editableCoreTextView;
 
 @end
 

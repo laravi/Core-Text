@@ -7,44 +7,42 @@
 //
 
 #import "ViewController.h"
-#import "TextView.h"
 
 @interface ViewController ()<UITextViewDelegate>
 {
-    TextView *textView;
 //    UITextView *textView;
 }
 
 @end
 
 @implementation ViewController
+@synthesize editableCoreTextView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
 //    textView = [UITextView new];
 //    textView.delegate = self;
     
-    textView = [[TextView alloc] init];
+    editableCoreTextView = [[EditableCoreTextView alloc] init];
+    editableCoreTextView.editableCoreTextViewDelegate = self;
     
     CGRect frame = self.view.frame;
     frame.origin.y += 20;
-    textView.frame = frame;
+    editableCoreTextView.frame = frame;
 
-    [self.view addSubview:textView];
+    [self.view addSubview:editableCoreTextView];
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)editableCoreTextViewWillEdit:(EditableCoreTextView *)editableCoreTextView;
 {
-    [super viewDidAppear:animated];
-
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
+
+
+
 
 -(BOOL)textViewShouldBeginEditing:(UITextView *)textView
 {

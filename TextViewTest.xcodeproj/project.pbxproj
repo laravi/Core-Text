@@ -13,7 +13,10 @@
 		FF34504F1DE2C54300CCC18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF34504D1DE2C54300CCC18C /* Main.storyboard */; };
 		FF3450511DE2C54300CCC18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3450501DE2C54300CCC18C /* Assets.xcassets */; };
 		FF3450541DE2C54300CCC18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3450521DE2C54300CCC18C /* LaunchScreen.storyboard */; };
-		FF34512F1DE8308F00CCC18C /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34512E1DE8308F00CCC18C /* TextView.m */; };
+		FF34512F1DE8308F00CCC18C /* EditableCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34512E1DE8308F00CCC18C /* EditableCoreTextView.m */; };
+		FFAF8FB61E0277B500B244CB /* SimpleCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8FB51E0277B500B244CB /* SimpleCoreTextView.m */; };
+		FFC9A1851E0274A700208C59 /* IndexedPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC9A1841E0274A700208C59 /* IndexedPosition.m */; };
+		FFC9A1881E02750E00208C59 /* IndexedRange.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC9A1871E02750E00208C59 /* IndexedRange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +30,14 @@
 		FF3450501DE2C54300CCC18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3450531DE2C54300CCC18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF3450551DE2C54300CCC18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF34512D1DE8308F00CCC18C /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
-		FF34512E1DE8308F00CCC18C /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		FF34512D1DE8308F00CCC18C /* EditableCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableCoreTextView.h; sourceTree = "<group>"; };
+		FF34512E1DE8308F00CCC18C /* EditableCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableCoreTextView.m; sourceTree = "<group>"; };
+		FFAF8FB41E0277B500B244CB /* SimpleCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCoreTextView.h; sourceTree = "<group>"; };
+		FFAF8FB51E0277B500B244CB /* SimpleCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCoreTextView.m; sourceTree = "<group>"; };
+		FFC9A1831E0274A700208C59 /* IndexedPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexedPosition.h; sourceTree = "<group>"; };
+		FFC9A1841E0274A700208C59 /* IndexedPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexedPosition.m; sourceTree = "<group>"; };
+		FFC9A1861E02750E00208C59 /* IndexedRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexedRange.h; sourceTree = "<group>"; };
+		FFC9A1871E02750E00208C59 /* IndexedRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexedRange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +74,14 @@
 				FF3450481DE2C54300CCC18C /* AppDelegate.m */,
 				FF34504A1DE2C54300CCC18C /* ViewController.h */,
 				FF34504B1DE2C54300CCC18C /* ViewController.m */,
-				FF34512D1DE8308F00CCC18C /* TextView.h */,
-				FF34512E1DE8308F00CCC18C /* TextView.m */,
+				FFC9A1831E0274A700208C59 /* IndexedPosition.h */,
+				FFC9A1841E0274A700208C59 /* IndexedPosition.m */,
+				FFC9A1861E02750E00208C59 /* IndexedRange.h */,
+				FFC9A1871E02750E00208C59 /* IndexedRange.m */,
+				FFAF8FB41E0277B500B244CB /* SimpleCoreTextView.h */,
+				FFAF8FB51E0277B500B244CB /* SimpleCoreTextView.m */,
+				FF34512D1DE8308F00CCC18C /* EditableCoreTextView.h */,
+				FF34512E1DE8308F00CCC18C /* EditableCoreTextView.m */,
 				FF34504D1DE2C54300CCC18C /* Main.storyboard */,
 				FF3450501DE2C54300CCC18C /* Assets.xcassets */,
 				FF3450521DE2C54300CCC18C /* LaunchScreen.storyboard */,
@@ -156,8 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFAF8FB61E0277B500B244CB /* SimpleCoreTextView.m in Sources */,
 				FF34504C1DE2C54300CCC18C /* ViewController.m in Sources */,
-				FF34512F1DE8308F00CCC18C /* TextView.m in Sources */,
+				FF34512F1DE8308F00CCC18C /* EditableCoreTextView.m in Sources */,
+				FFC9A1851E0274A700208C59 /* IndexedPosition.m in Sources */,
+				FFC9A1881E02750E00208C59 /* IndexedRange.m in Sources */,
 				FF3450491DE2C54300CCC18C /* AppDelegate.m in Sources */,
 				FF3450461DE2C54300CCC18C /* main.m in Sources */,
 			);
