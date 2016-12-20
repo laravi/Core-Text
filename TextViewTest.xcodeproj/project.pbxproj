@@ -14,6 +14,7 @@
 		FF3450511DE2C54300CCC18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3450501DE2C54300CCC18C /* Assets.xcassets */; };
 		FF3450541DE2C54300CCC18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3450521DE2C54300CCC18C /* LaunchScreen.storyboard */; };
 		FF34512F1DE8308F00CCC18C /* EditableCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34512E1DE8308F00CCC18C /* EditableCoreTextView.m */; };
+		FF9C2D461E09561F00A3399B /* MultiColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C2D451E09561F00A3399B /* MultiColumnView.m */; };
 		FFAF8FB61E0277B500B244CB /* SimpleCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8FB51E0277B500B244CB /* SimpleCoreTextView.m */; };
 		FFAF8FB91E02B72600B244CB /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8FB81E02B72600B244CB /* TextView.m */; };
 		FFC9A1851E0274A700208C59 /* IndexedPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC9A1841E0274A700208C59 /* IndexedPosition.m */; };
@@ -33,6 +34,8 @@
 		FF3450551DE2C54300CCC18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF34512D1DE8308F00CCC18C /* EditableCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableCoreTextView.h; sourceTree = "<group>"; };
 		FF34512E1DE8308F00CCC18C /* EditableCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableCoreTextView.m; sourceTree = "<group>"; };
+		FF9C2D441E09561F00A3399B /* MultiColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiColumnView.h; sourceTree = "<group>"; };
+		FF9C2D451E09561F00A3399B /* MultiColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiColumnView.m; sourceTree = "<group>"; };
 		FFAF8FB41E0277B500B244CB /* SimpleCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCoreTextView.h; sourceTree = "<group>"; };
 		FFAF8FB51E0277B500B244CB /* SimpleCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCoreTextView.m; sourceTree = "<group>"; };
 		FFAF8FB71E02B72600B244CB /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				FF34512E1DE8308F00CCC18C /* EditableCoreTextView.m */,
 				FFAF8FB71E02B72600B244CB /* TextView.h */,
 				FFAF8FB81E02B72600B244CB /* TextView.m */,
+				FF9C2D441E09561F00A3399B /* MultiColumnView.h */,
+				FF9C2D451E09561F00A3399B /* MultiColumnView.m */,
 				FF34504D1DE2C54300CCC18C /* Main.storyboard */,
 				FF3450501DE2C54300CCC18C /* Assets.xcassets */,
 				FF3450521DE2C54300CCC18C /* LaunchScreen.storyboard */,
@@ -176,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9C2D461E09561F00A3399B /* MultiColumnView.m in Sources */,
 				FFAF8FB61E0277B500B244CB /* SimpleCoreTextView.m in Sources */,
 				FF34504C1DE2C54300CCC18C /* ViewController.m in Sources */,
 				FF34512F1DE8308F00CCC18C /* EditableCoreTextView.m in Sources */,

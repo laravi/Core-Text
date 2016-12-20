@@ -7,10 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "MultiColumnView.h"
 
 @interface ViewController ()<UITextViewDelegate>
 {
-    TextView *textView;
+    MultiColumnView *textView;
 }
 
 @end
@@ -21,8 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    textView = [TextView new];
-    textView.delegate = self;
+    textView = [[MultiColumnView alloc] init];
+//    textView.delegate = self;
     
     editableCoreTextView = [[EditableCoreTextView alloc] init];
     editableCoreTextView.editableCoreTextViewDelegate = self;
