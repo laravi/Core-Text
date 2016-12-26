@@ -112,6 +112,7 @@
     // Create the Core Text frame using our current view rect bounds
     UIBezierPath *path = [UIBezierPath bezierPathWithRect:self.bounds];
     _frame =  CTFramesetterCreateFrame(_framesetter, CFRangeMake(0, 0), [path CGPath], NULL);
+    NSArray *lines = CTFrameGetLines(_frame);
 }
 
 // text property accessor overrides

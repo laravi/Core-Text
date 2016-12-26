@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MultiColumnView : UIView
+@interface MultiColumnView : UIView <NSLayoutManagerDelegate>
 
 @property (copy, nonatomic) NSTextStorage *textStorage;
 @property (strong, nonatomic) NSArray *textOrigins;
