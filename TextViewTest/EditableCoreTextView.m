@@ -292,8 +292,8 @@
         case UITextLayoutDirectionLeft:
             newPos -= offset;
             break;
-        UITextLayoutDirectionUp:
-        UITextLayoutDirectionDown:
+        case UITextLayoutDirectionUp:
+        case UITextLayoutDirectionDown:
             // This sample does not support vertical text directions
             break;
     }
